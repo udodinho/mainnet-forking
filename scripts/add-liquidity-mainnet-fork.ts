@@ -47,8 +47,8 @@ async function main() {
 
     console.log("=========================================================");
 
-    console.log("usdc balance after swap", Number(usdcBalAfter));
-    console.log("dai balance after swap", Number(daiBalAfter));
+    console.log("usdc balance after adding liquidity", Number(usdcBalAfter));
+    console.log("dai balance after adding liquidity", Number(daiBalAfter));
 }
 
 // We recommend this pattern to be able to use async/await everywhere
